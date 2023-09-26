@@ -83,16 +83,17 @@
     <!-- slider-section -->
     <div class="container-fluid" id="partners">
       <div class="row slider">
-        <div class="col-md-6 slider-image" >
+        <div class="col-md-6 slider-image">
           <img
             src="./images/excavator-action site.jpg"
-            alt="img" w
+            alt="img"
+            style="height: 120%"
           />
         </div>
         <div class="col-md-6 slider-text">
           <h1>WHAT WE DO</h1>
           <div id="div"></div>
-          <h2>CONSTRUCTION/REAL ESTATE SOLUTION</h2>
+          <h2>CONSTRUCTION/REAL ESTATE</h2>
           <p>
             We provide drone solution to construction companies through a
             digital twin for monitoring and tracking of work, accurate
@@ -104,7 +105,7 @@
         </div>
       </div>
 
-      <div class="row slider">
+      <div class="row slider-2">
         <div class="col-md-6 slider-text">
           <div id="div"></div>
           <h2>INSPECTION OF CRITICAL <br />INFRASTRUCTURE</h2>
@@ -121,12 +122,11 @@
           <img
             src="./images/Inspections of critical infrastructure.jpg"
             alt="img"
-            class="shadow-lg"
           />
         </div>
       </div>
 
-      <div class="row slider">
+      <div class="row slider-3">
         <div class="col-md-6 slider-image">
           <img
             src="./images/business-team-working-laptop.jpg"
@@ -205,51 +205,67 @@
     </div>
 
     <!-- review-section -->
-    <div class="container-fluid" id="event">
+    <div class="container" id="event">
       <div class="row">
         <div class="col-md-4">
           <div class="review">
-            <img
-              src="./images/me.jpg"
-              alt="abba"
-              width="50px"
-              height="50px"
-              class="rounded-circle"
-            />
+            <h2>
+              Omaga Joshua A.
+              <br />
+              <span>NCAA RPAS Safety Officer/ONSA Desk Officer</span>
+            </h2>
             <p>
-              Nazif Abdullahi<br />
-              <span>clients</span>
+              Koris Aviation & Consultancy Services Ltd is one of the Indigenous
+              RPAS Operator Certificate holder in Nigeria, who obtained both EUC
+              and ROC in June 2020 and has demonstrated and lived up to the
+              standard of maintaining safety in operations as well as developed
+              human capacity. They have just been issued a renewed ROC to enable
+              Koris Aviation continue operation, having demonstrated a mandatory
+              standard five phase certification process. The Nigerian aviation
+              apex body has rated Koris Aviation & Consultancy Ltd as one of the
+              leading RPAS/UAV operators in Nigeria.
             </p>
           </div>
         </div>
 
         <div class="col-md-4">
           <div class="review-2">
-            <img
-              src="./images/abba.png"
-              alt="abba"
-              width="50px"
-              height="50px"
-              class="rounded-circle"
-            />
+            <h2>
+              Arc. Ibrahim Halil Jibrin
+
+              <br />
+              <span>M.D Concept Cast and Constructions Ltd</span>
+            </h2>
             <p>
-              Abba Abdullahi <br />
-              <span>clients</span>
+              Koris Aviation & Consultancy Ltd has provided instrumental
+              solutions for project documentation and site assessments through
+              their drone services. They have been utilized heavily in the
+              planning stages of our Design-Build Projects and throughout the
+              project – specifically weekly updates to the owner. “Very
+              professional. Very detailed and timely with service delivery. I
+              would highly recommend.”
             </p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="review">
-            <img
-              src="./images/dp.jpg"
-              alt="abba"
-              width="50px"
-              height="50px"
-              class="rounded-circle"
-            />
+            <h2>
+              Ibrahim Musa Mammadi
+              <br />
+              <span
+                >Chairman/Managing Director, Malumty Construction and Properties
+                Limited.</span
+              >
+            </h2>
             <p>
-              Isah Muhammad Rabiu <br />
-              <span>clients</span>
+              Koris Aviation & Consultancy Ltd is the Company of choice for all
+              drone services in Nigeria. Fully certificated and certified, with
+              trained and experienced human capacity, they are blazing the trail
+              in an array of drone services from pipelines and infrastructure
+              surveillance, construction industry and related services, telecoms
+              and security, name it, Koris is your best option. Tried and
+              tested, and in all instances, have delivered and surpassed all
+              expected results.
             </p>
           </div>
         </div>
@@ -260,13 +276,8 @@
     <div class="end">
       <div class="container">
         <div class="koris">
-          <img
-            src="./images/logo2.69d181293abef1ab7d66.png"
-            width="70px"
-            height="auto"
-            alt=""
-          />
-          =
+          <h1>Koris</h1>
+
           <h1>Koris</h1>
 
           <button>work with us <i class="bx bxs-right-arrow-alt"></i></button>
@@ -294,13 +305,6 @@
           <a href="#"><p>Link goes here</p> </a>
         </div>
         <div class="third-info">
-          <h4>column hedding</h4>
-          <a href="#"><p>Link goes here</p> </a>
-          <a href="#"><p>Link goes here</p> </a>
-          <a href="#"><p>Link goes here</p> </a>
-          <a href="#"><p>Link goes here</p> </a>
-        </div>
-        <div class="fourt-info">
           <h4>column hedding</h4>
           <a href="#"><p>Link goes here</p> </a>
           <a href="#"><p>Link goes here</p> </a>
@@ -335,7 +339,7 @@
           header.style.boxShadow = "0px 0px 10px rgba(0, 0, 0, 0.1)";
           menu.style.color = "#222";
           links.forEach(function (link) {
-            link.style.color = "#2c2c2c";
+            link.style.color = "var(--primary-color)";
           });
         } else {
           header.style.backgroundColor = "transparent";
